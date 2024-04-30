@@ -1,0 +1,37 @@
+---
+canvas: "https://adore.ugent.be/IIIF/manifests/archive.ugent.be%3AE9EA02FA-A5BF-11EA-A14F-3834AA36FAF6/canvases/DS.2"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Schaap",
+            "purpose": "commenting",
+            "creator": {
+                "id": "emiherma",
+                "name": "emiherma"
+            },
+            "created": "2024-04-30T09:18:01.010Z",
+            "modified": "2024-04-30T09:18:02.823Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://adore.ugent.be/IIIF/manifests/archive.ugent.be%3AE9EA02FA-A5BF-11EA-A14F-3834AA36FAF6",
+                "type": "Manifest"
+            },
+            "id": "https://adore.ugent.be/IIIF/manifests/archive.ugent.be%3AE9EA02FA-A5BF-11EA-A14F-3834AA36FAF6/canvases/DS.2",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"4876.185546875\" cy=\"5070.59521484375\" rx=\"884.34521484375\" ry=\"622.70458984375\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "66558567-3565-4000-80ca-bb2a9e58e1d2.json",
+    "motivation": "commenting"
+}
