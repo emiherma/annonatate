@@ -1,0 +1,9 @@
+---
+canvas_id: "https://adore.ugent.be/IIIF/manifests/archive.ugent.be%3AE9EA02FA-A5BF-11EA-A14F-3834AA36FAF6/canvases/DS.2"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/3/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"items": [{{ annotations | join: ","}}] }
